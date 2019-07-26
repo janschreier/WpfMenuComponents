@@ -61,7 +61,7 @@ namespace WpfMenuComponents
         else
         {
           var mi = item as MenuItem;
-          if (mi != null && mi.HasItems) FindPlaceholders(mi); // Untermenü durchsuchen
+          if (mi != null && mi.HasItems) FindPlaceholders(mi); // Untermenü rekursiv durchsuchen
         }
         index++;
       }

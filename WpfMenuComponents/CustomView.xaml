@@ -25,6 +25,7 @@
     </local:MenuItemList>
   </UserControl.Resources>
   <Grid Background="LightSkyBlue">
+    <!--Menükomponente, deren Platzhalter ersetzt werden sollen-->
     <local:MainMenuComponent VerticalAlignment="Top"/>
     <Label Content="Das ist eine benutzerspezifische Komponente" HorizontalAlignment="Left" Margin="264,172,0,0" VerticalAlignment="Top"/>
 
